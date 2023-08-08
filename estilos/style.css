@@ -23,7 +23,7 @@ main {
     width: 100vw;
 }
 
-section#login{
+section#login {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,6 +36,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -46,9 +49,9 @@ section#login > div#imagem {
     height: 200px;
 }
 
-cetion#login > div#formulario {
+section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 20px;
 
 
 }
